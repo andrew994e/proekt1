@@ -7,6 +7,11 @@
           <link rel="stylesheet" href="css/style.css"> 
           <link rel="stylesheet" href="style.css" type="text/css" />
           <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+          <link href="libs/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+          <link href="libs/fancybox/bootstrap.min.css" rel="stylesheet">
+          <link href="libs/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+          
+          
 
     <!--заголовок вкладки-->
           <title>История</title>
@@ -27,9 +32,9 @@
           </button>
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#"><h5>Замок</h5></a></li>
-            <li class="nav-item"><a class="nav-link" href="#"><h5>Город</h5></a></li>
-            <li class="nav-item"><a class="nav-link" href="#"><h5>Фото</h5></a></li>
+            <li class="nav-item"><a class="nav-link" href="#1"><h5>Замок</h5></a></li>
+            <li class="nav-item"><a class="nav-link" href="#2"><h5>Город</h5></a></li>
+            <li class="nav-item"><a class="nav-link" href="#3"><h5>Фото</h5></a></li>
         </ul>
            </div>
             </nav>
@@ -74,14 +79,19 @@
    <div class="row">
      <div class="col">
        <div class="single-post">
-         <h3 class="post-category">Описание места</h3>
+         <h3 class="post-category" id="1">Описание места "Замок"</h3>
          <h2 class="post-title"><a href="#"></a></h2>
-         <p>Разумеется, история разрушенного замка будет связана с одной, а то и с парой легенд. Это касается и Хустского замка. 
-            Одно из приданий связывает название крепости с воеводой по имени Хуст. Но есть и другая, леденящая кровь легенда, которая
-            предполагает что к замку причастен прототип графа Дракулы Брэма Стокера. Реального "Дракулу" звали Влад Цепеш, а тот в свою очередь 
-            был в родстве с воеводами Балка и Драга из рода Драгошей - им в свое время и достался замок. Хустский замок отличался толстыми стенами, которые 
-            очень сложно пробить и разрушить. В 16 веке он оказался на территории тогдашнего Трансильванского княжества, принял на себя весомый удар во время венгерской 
-            освободительной войны. Дальнейшая судьба замка была довольно однозначна - он был разрушен взрывом порохового склада. Добили замок удары молний - восстановлению он не подлежит.
+         <p>Хустский замок был основан венгерским королём Ласло I Святым в 1090 году для защиты от вторжений половцев,
+             но был разрушен во время монгольского вторжения в Венгрию и перестроен в 1318 году. Первое упоминание о собственно городе Хусте,
+             возникшем как посад возле замка, относится к 1329 году, когда Хуст и Тячев получили от короля Карла Роберта привилегии и статус «королевских городов».
+             В 1458 году король Матьяш Корвин заключил в Хустском замке своего дядю, мятежного Михая Силади. Во время восстания Дьёрдя Дожи (1514) район
+             Хуста был охвачен активным крестьянским движением, и восставшим крестьянам удалось на некоторое время захватить крепость. В результате поражения
+             Венгерского королевства от Османской империи при Мохаче (1526) Хуст стал частью княжества Трансильвания. В 1546 году император Фердинанд 
+             I отбил город у Трансильвании. В 1594 году Хуст был разорён крымскими татарами, но взять крепость им так и не удалось. В дальнейшем замок
+             подвергался осаде в 1644 году армиями Дьёрдя I Ракоци, в 1657 — польскими и в 1661—1662 — турецкими войсками.
+             17 августа 1703 года Хустский замок был занят восставшими войсками Ференца II Ракоци, состоявшими как из венгерского, так и из славянского 
+             населения, и именно здесь была провозглашена независимость Трансильвании. 
+             Серьёзно поврежденный Хустский замок 3 июля 1766 года был поражён молнией (которая попала в пороховой склад), в 1788 упала его башня.
          </p>
          <hr>
          <p>
@@ -106,9 +116,9 @@
         <div class="card">
            <img src="img/M2kOfK0durU.jpg" class="card-img-top" alt="...">
            <div class="card-body">
-              <h3 class="post-category">lifstile</h3>
-              <h5 class="post-title">American dream</h5>
-             <p class="card-text">6uyty5eyhr65ue5tru6u8rue5t6yeryheryrtrty</p>
+              <h3 class="post-category"></h3>
+              <h5 class="post-title"></h5>
+             <p class="card-text"></p>
           </div>
         </div>
      </div>
@@ -116,9 +126,9 @@
       <div class="card">
          <img src="img/ZQkMnin8CBQ.jpg" class="card-img-top" alt="...">
          <div class="card-body">
-            <h3 class="post-category">lifstile</h3>
-            <h5 class="post-title">American dream</h5>
-           <p class="card-text">6uyty5eyhr65ue5tru6u8rue5t6yeryheryrtrty</p>
+            <h3 class="post-category"></h3>
+            <h5 class="post-title"></h5>
+           <p class="card-text"></p>
         </div>
       </div>
    </div>
@@ -126,10 +136,191 @@
   </div>
 </div>
 
+<hr>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="single-post">
+        <h3 class="post-category" id="2">Описание места "Хуст"</h3>
+        <h2 class="post-title"><a href="#"></a></h2>
+        <p>По состоянию на 1910 год в Хусте проживало 10 292 человек, из них 5230 русинов, 3505 венгров и 1535 немцев.
+
+          18 октября 1918 года видные политики украинских партий, деятели культуры и церкви создали в Хусте Народную Раду, 
+          которая должна была действовать как представительский орган и объявила о намерении объединить все западно-украинские
+           земли Австро-Венгерской империи в одно целое. 21 января 1919 года в Хусте собрался Всенародный Конгресс русинов.
+          
+          В 1919 году в городе была установлена советская власть (Венгерская советская республика), но 18 апреля 1919 года он
+           был захвачен войсками Румынии и вместе со всей Подкарпатской Русью (современная территория Закарпатья) передан
+            Чехословакии по Трианонскому мирному договору. В результате раздела комитата Мармарош между Чехословакией и Румынией,
+             административным центром его чехословацкой части стал Хуст, что вызвало бурное развитие города в 1920—1930-е годы.
+              17 января 1932 года в Хусте были голодные волнения, подавленные жандармами.
+          
+          В Хусте в 1938—39 годах был двор Апостольского Администратора Мукачевской епархии, выходил 'дневник «Новая Свобода»'
+           и действовал театр «Новая Сцена».
+          
+          
+          Католический костёл
+          
+          Православная Благовещенская церковь
+          По решению Первого Венского арбитража (1938) равнинная часть Закарпатья с крупнейшими городами Ужгородом и Мукачевым 
+          была передана Венгрии, и автономное правительство Подкарпатской Руси с остальными административными структурами было вынуждено 10 ноября 1938 покинуть Ужгород и избрать своей столицей третий по величине центр — Хуст. 15 марта 1939 здесь Августином Волошиным была провозглашена независимость Карпатской Украины, но в тот же день венгерские войска заняли город. После венгерской оккупации свыше 75 тысяч закарпатцев перешли на территорию УССР.
+          
+          Во время войны из Закарпатья немецкими войсками из Хуста в лагеря и на принудительные работы было вывезено более 8 
+          тысяч человек, в том числе вся еврейская община. Вместе с тем, в Хусте с самого начала оккупации развернулось антифашистское 
+          движение, одним из представителей которого был уроженец Изы поэт-антифашист Дмитрий Вакаров, казнённый венгерской администрацией 
+          за свою деятельность. В августе 1943 на горе Манчул (север современного Хустского района) высадилась советская парашютно-десантная 
+          группа под командованием венгерского антифашиста Ференца Патаки. Город был освобожден 17-м стрелковым корпусом 4-го Украинского Фронта 24 октября 1944.
+          
+          30 ноября 1945 года здесь началось издание районной газеты[6].
+          
+          В 1946 году Хуст получил статус города[3][1].
+          
+          В 1978 году здесь действовали Теребля-Рикская ГЭС, лесокомбинат, экспериментальный камнеобрабатывающий завод, 
+          керамический завод, завод стройматериалов; фетро-фильцевая фабрика, обувная фабрика, фабрика художественных изделий,
+           несколько предприятий пищевой промышленности, лесотехникум, медицинское училище, культурно-просветительское училище, историко-революционный музей и туристическая база[3].
+          
+          В январе 1989 года численность населения составляла 31 287 человек[7], в это время основой экономики являлись 
+          лесокомбинат, предприятия пищевой промышленности, Теребовля-Рикская ГЭС и туризм[1].
+          
+          В мае 1995 года Кабинет министров Украины утвердил решение о приватизации находившихся в городе фетро-фильцевой
+           фабрики, завода "Техномаш", завода стройматериалов, АТП-12141, дорожного ремонтно-строительного управления № 92[8],
+            райсельхозтехники, консервного завода[9], в июле 1995 года было утверждено решение о приватизации маслосырзавода[10].
+        </p>
+        <hr>
+        <p>
+          Согласно всеукраинской переписи населения 2001 года, в Хусте насчитывалось 31,9 тысячи жителей, основными национальностями из которых являются
+          <li>украинцы — 28,4 тыс. (89 %)</li>
+          <li>венгры — 1,7 тыс. (5.3 %)</li>
+          <li>русские — 1,2 тыс. (3.8 %)</li>
+          <li>цыгане — 0,1 тыс. (0.3 %)</li>
+       </p>
+        <p><a href="#" class="link-more"></a></p>
+
+      
+
+      
+        </div>
+     </div>
+  </div>
+</div>
+
+<hr>
+
+
+
+<div class="row"> 
+ 
+  <div class="container">
+    
+    <h1 class="h3 text-center my-4"><h2 id="3" class="class_FOTO">Фото </h2></h1>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-6 thumb">
+            <a data-fancybox="gallery" href="img/xustskiy_zamok_15.jpg">
+                <img class="img-fluid" src="img/xustskiy_zamok_15.jpg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 thumb">
+            <a data-fancybox="gallery" href="img/unnam.jpg">
+                <img class="img-fluid" src="img/unnam.jpg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 thumb">
+          <a data-fancybox="gallery" href="img/unnamed.jpg">
+              <img class="img-fluid" src="img/unnamed.jpg" alt="...">
+          </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 thumb">
+        <a data-fancybox="gallery" href="img/panorama_goroda_4.jpg">
+            <img class="img-fluid" src="img/panorama_goroda_4.jpg" alt="...">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6 thumb">
+      <a data-fancybox="gallery" href="img/panorama_goroda_2.jpg">
+          <img class="img-fluid" src="img/panorama_goroda_2.jpg" alt="...">
+      </a>
+  </div>
+  <div class="col-lg-3 col-md-4 col-6 thumb">
+    <a data-fancybox="gallery" href="img/panorama_goroda.jpg">
+        <img class="img-fluid" src="img/panorama_goroda.jpg" alt="...">
+    </a>
+</div>
+<div class="col-lg-3 col-md-4 col-6 thumb">
+  <a data-fancybox="gallery" href="img/d301f5a90b05c73da161489e932283f2.jpg">
+      <img class="img-fluid" src="img/d301f5a90b05c73da161489e932283f2.jpg" alt="...">
+  </a>
+</div>
+<div class="col-lg-3 col-md-4 col-6 thumb">
+  <a data-fancybox="gallery" href="img/csm_c_7ff277aec4.jpg">
+      <img class="img-fluid" src="img/csm_c_7ff277aec4.jpg" alt="...">
+  </a>
+</div>
+<div class="col-lg-3 col-md-4 col-6 thumb">
+  <a data-fancybox="gallery" href="img/a72ff66-1.jpg">
+      <img class="img-fluid" src="img/a72ff66-1.jpg" alt="...">
+  </a>
+</div>
+<div class="col-lg-3 col-md-4 col-6 thumb">
+  <a data-fancybox="gallery" href="img/2560846369732898869-o.jpg">
+      <img class="img-fluid" src="img/2560846369732898869-o.jpg" alt="...">
+  </a>
+</div>
+<div class="col-lg-3 col-md-4 col-6 thumb">
+  <a data-fancybox="gallery" href="img/1493466771314.jpg">
+      <img class="img-fluid" src="img/1493466771314.jpg" alt="...">
+  </a>
+</div>
+<div class="col-lg-3 col-md-4 col-6 thumb">
+  <a data-fancybox="gallery" href="img/1488356630312.jpg">
+      <img class="img-fluid" src="img/1488356630312.jpg" alt="...">
+  </a>
+</div>
+<div class="col-lg-3 col-md-4 col-6 thumb">
+  <a data-fancybox="gallery" href="img/1468940822855.jpg">
+      <img class="img-fluid" src="img/1468940822855.jpg" alt="...">
+  </a>
+</div>
+<div class="col-lg-3 col-md-4 col-6 thumb">
+  <a data-fancybox="gallery" href="img/1468940520560.jpg">
+      <img class="img-fluid" src="img/1468940520560.jpg" alt="...">
+  </a>
+</div>
+<div class="col-lg-3 col-md-4 col-6 thumb">
+  <a data-fancybox="gallery" href="img/15278414632e8.jpg">
+      <img class="img-fluid" src="img/15278414632e8.jpg" alt="...">
+  </a>
+</div>
+<div class="col-lg-3 col-md-4 col-6 thumb">
+  <a data-fancybox="gallery" href="img/1468940686cf0.jpg">
+      <img class="img-fluid" src="img/1468940686cf0.jpg" alt="...">
+  </a>
+</div>
+<div class="col-lg-3 col-md-4 col-6 thumb">
+  <a data-fancybox="gallery" href="img/764d42d-3--1-.jpg">
+      <img class="img-fluid" src="img/764d42d-3--1-.jpg" alt="...">
+  </a>
+</div>
+<div class="col-lg-3 col-md-4 col-6 thumb">
+  <a data-fancybox="gallery" href="img/024fb35-23.jpg">
+      <img class="img-fluid" src="img/024fb35-23.jpg" alt="...">
+  </a>
+</div>
+<div class="col-lg-3 col-md-4 col-6 thumb">
+  <a data-fancybox="gallery" href="img/0f90278-10806462-606065169493520-12528667921807740975-n.jpg">
+      <img class="img-fluid" src="img/0f90278-10806462-606065169493520-12528667921807740975-n.jpg" alt="...">
+  </a>
+</div>
+    </div>
+</div>
+
+
+
 
     
  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="libs/fancybox/jquery.fancybox.min.js"></script>
+
 </body>
 </html>
